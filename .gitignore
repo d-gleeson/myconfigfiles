@@ -1,0 +1,13 @@
+.bash*
+.lesshst
+.pip/
+.profile
+.pulse-cookie
+.pulse/
+.vim
+.viminfo
+docs
+miniconda
+projects
+scripts
+
