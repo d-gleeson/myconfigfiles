@@ -4,6 +4,8 @@ syntax on
 filetype plugin indent on
 
 set nu
+set background=dark
+color desert
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Colemak-Vim Mappings
