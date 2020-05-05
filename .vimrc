@@ -1,6 +1,8 @@
 """
 "Aesthetics
 """
+syntax on
+
 set nu
 set cursorline
 hi CursorLine cterm=None
@@ -9,6 +11,7 @@ hi ColorColumn ctermbg=lightgrey guibg=lightgrey
 """
 "Performance
 """
+filetype plugin indent on
 set nrformats=
 
 """""""""""""""""""""""""""
