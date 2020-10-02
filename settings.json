@@ -1,0 +1,74 @@
+{
+    "python.pythonPath": "C:\\Users\\darragh.gleeson\\AppData\\Local\\Continuum\\anaconda3\\python.exe",
+	"vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+		{
+            "before" : ["s"],
+            "after" : ["i"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before" : ["n"],
+            "after" : ["<down>"]
+        },
+		{
+            "before" : ["e"],
+            "after" : ["<up>"]
+        },
+		{
+            "before" : ["i"],
+            "after" : ["<right>"]
+        },
+		{
+            "before" : ["h"],
+            "after" : ["<left>"]
+        }
+		
+    ],
+	"vim.insertModeKeyBindings": [
+        {
+          "before": ["k", "k"],
+          "after": ["<Esc>"]
+        }
+      ],
+	  "vim.visualModeKeyBindings": [
+        {
+            "before" : ["n"],
+            "after" : ["<down>"]
+        },
+		{
+            "before" : ["e"],
+            "after" : ["<up>"]
+        },
+		{
+            "before" : ["i"],
+            "after" : ["<right>"]
+        },
+		{
+            "before" : ["h"],
+            "after" : ["<left>"]
+        }
+		
+    ],
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        
+   "<C-a>" : false,
+   "<C-f>" : false, 
+   "<C-n>" : false, 
+   "<C-w>" : false, 
+   "<C-d>": true
+    },
+    "vim.easymotion": true
+}
